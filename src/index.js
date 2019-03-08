@@ -4,7 +4,7 @@ const app = express();
 
 app.use(require('./routes'));
 
-const port = 3000 || process.env.port;
+const port = 3000 || process.env.PORT;
 
 app.listen(port, () => {
   console.log("Server online! (:")
