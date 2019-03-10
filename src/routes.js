@@ -23,7 +23,7 @@ route.get('/ingredients', (req, res, next) => {
 route.get('/lanches', (req, res, next) => {
   res.send([
     {"name": "x-bacon", "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ5vGtjSWvwHWcmTKa-fHtyufc4N7EdGbkmqkr3crMBLhKF1bZ", "ingredients": ["bacon", "hambúrguer de carne", "queijo"]},
-    {"name": "x-burger", "url":"https://admin.cmpedidos.com.br/foto/205/produtos/x-burguer-duplo-especial-25511.jpg", "ingredients": ["hambúrguer de carne", "queijo"]},
+    {"name": "x-burger", "url":"https://img.grouponcdn.com/deal/gs94tqqHaVvmcmBZHwK9dG5QSaJ/gs-960x576/v1/t440x300.jpg", "ingredients": ["hambúrguer de carne", "queijo"]},
     {"name": "x-egg", "url":"https://www.deliverymuch.com.br/media/5942afbe1b3f0.png", "ingredients": ["ovo", "hambúrguer de carne", "queijo"]},
     {"name": "x-egg bacon", "url":"https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000nlD6jMAE/56f00258e4b050d3e1e29bd6.jpg&w=620&h=400", "ingredients": ["ovo", "bacon", "hambúrguer de carne", "queijo"]}
   ])
