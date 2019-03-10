@@ -12,11 +12,11 @@ route.get('/', (req, res, next) => {
 
 route.get('/ingredients', (req, res, next) => {
   res.send([
-    {"name": "alface", "value": 0.40},
-    {"name": "bacon", "value": 2.00},
-    {"name": "hambúrguer de carne", "value": 3.00},
-    {"name": "ovo", "value": 0.80},
-    {"name": "queijo", "value": 1.50}
+    {"name": "alface", "value": 0.4},
+    {"name": "bacon", "value": 2.0},
+    {"name": "hambúrguer de carne", "value": 3.0},
+    {"name": "ovo", "value": 0.8},
+    {"name": "queijo", "value": 1.5}
   ])
 })
 
