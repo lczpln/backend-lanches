@@ -1,2 +1,8 @@
 # backend-lanches
-https://app-food-lczpln.firebaseapp.com/
+
+https://api-lanches-lczpln.herokuapp.com
+
+# routes:
+
+/lanches
+/ingredients
